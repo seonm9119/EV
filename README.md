@@ -17,7 +17,14 @@ The problem specifications are in data (TSP). Each text file (data 1.txt, data
 
 The TwoMax problem is a multimodal optimization problem that has 2 optimal solutions. The fitness function of the TwoMax problem is:
 
+$$f(x)=max\left ( u(x), \bar{u}(x) \right )$$
+$$u(x)=\sum_{i=1}^{n}x_{i}$$
+$$\bar{u}(x)=\sum_{i=1}^{n}(1-x_{i})$$
+where $x=\left< x_{1}, x_{}, ..., x_{n} \right>$ ,      $x_{i}\in$ {0,1}.
+
+In this homework assignment, we introduce the FourMax problem. FourMax problem has 4 optimal solutions, and one FourMax problem is made by concatenating two TwoMax problems.
 
 ### Homework 4 - Genetic Programming
 
 Use genetic programming to find the symbolic formula (f) that most accurately describes the given data. Each data (data gp1.txt, data gp2.txt) contains 200 xy coordinates, where
+$$y=f(x) + noisy$$
