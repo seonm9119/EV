@@ -16,3 +16,8 @@ The problem specifications are in data (TSP). Each text file (data 1.txt, data
 ### Homework 3 - FourMax Problem
 
 The TwoMax problem is a multimodal optimization problem that has 2 optimal solutions. The fitness function of the TwoMax problem is:
+
+
+### Homework 4 - Genetic Programming
+
+Use genetic programming to find the symbolic formula (f) that most accurately describes the given data. Each data (data gp1.txt, data gp2.txt) contains 200 xy coordinates, where
